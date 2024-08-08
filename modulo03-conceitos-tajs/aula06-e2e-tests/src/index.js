@@ -14,7 +14,7 @@ export default server
     -X POST \
     -H 'Content-Type: application/json' \
     -d '{
-        "name": "rafael",
+        "name": "rafael dom",
         "cpf": "123.123.123-12"
     }' \
     http://localhost:3000/persons

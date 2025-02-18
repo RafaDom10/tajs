@@ -14,7 +14,12 @@ function getUserCategory(birthDay) {
     if (age >= 18 && age <= 25) {
         return 'young-adult'
     }
-    return ''
+
+    if (age >= 26 && age <= 50) {
+        return 'adult'
+    }
+
+    return 'senior'
 }
 
 const server = createServer(async (request, response) => {

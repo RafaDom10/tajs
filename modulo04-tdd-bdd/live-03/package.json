@@ -1,0 +1,24 @@
+{
+  "name": "live-03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --parallel --exit test/",
+    "test:dev": "npx mocha test/ -w",
+    "test:cov": "npx nyc --reporters=html,text npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^11.1.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  },
+  "dependencies": {
+    "lokijs": "1.5"
+  }
+}
